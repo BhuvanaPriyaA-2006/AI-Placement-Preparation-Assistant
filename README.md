@@ -25,6 +25,7 @@ Each question includes a model answer, explanation, practical example, simple im
 - JSON
 
 📂 Project Structure
+```text
 AI-Placement-Preparation-Assistant/
 │
 ├── .streamlit/
@@ -38,30 +39,51 @@ AI-Placement-Preparation-Assistant/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
+```
 
 ⚙️ Installation and Setup
 
-1. Clone the repository
+1. Clone the Repository
+
+```bash
 git clone <your-repository-url>
+```
 
-2. Navigate to the project folder
+2. Navigate to the Project Folder
+
+```bash
 cd AI-Placement-Preparation-Assistant
+```
 
-4. Create and activate a virtual environment
+3. Create and Activate a Virtual Environment
+
+```bash
 python -m venv venv
 venv\Scripts\activate
+```
 
-4. Install dependencies
+4. Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-5. Configure the `.env` file
-env
+5. Configure Environment Variables
+
+Create a `.env` file in the project folder and add:
+
+```env
 OPENROUTER_API_KEY=your_api_key
 MODEL_NAME=openai/gpt-4o-mini
+```
 
-7. Run the application
-bash
+Replace `your_api_key` with your actual OpenRouter API key.
+
+6. Run the Application
+
+```bash
 streamlit run app.py
+```
 
 🚀 How to Use
 - Open the application in your browser.
