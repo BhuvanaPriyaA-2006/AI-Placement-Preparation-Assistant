@@ -1,13 +1,12 @@
-💼 AI Placement Preparation Assistant
-```text
-An AI-powered application that helps students and job seekers prepare for technical interviews through personalized questions, answers, explanations, and practical examples.
-```
+# 💼 AI Placement Preparation Assistant
 
-📌 About the Project
-```text
+An AI-powered application that helps students and job seekers prepare for technical interviews through personalized questions, answers, explanations, and practical examples.
+
+## 📌 About the Project
+
 The AI Placement Preparation Assistant uses an AI language model to generate interview questions based on the user's selected job role, experience level, difficulty, and number of questions.
+
 Each question includes a model answer, explanation, practical example, simple implementation, important keywords, and a follow-up question.
-```
 
 ✨ Key Features
 - Supports multiple technical job roles.
