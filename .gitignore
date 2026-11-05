@@ -1,19 +1,8 @@
-<<<<<<< HEAD
-# Virtual environment
 venv/
 .venv/
-
-# Python cache
 __pycache__/
-*.py[cod]
-
-# Environment variables
+*.pyc
 .env
-
-# IDE files
+.env.*
+!.env.example
 .vscode/
-.idea/
-
-# Streamlit cache
-.streamlit/secrets.toml
-=======
