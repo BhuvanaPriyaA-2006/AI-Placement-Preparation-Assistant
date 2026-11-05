@@ -1,0 +1,19 @@
+<<<<<<< HEAD
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# Streamlit cache
+.streamlit/secrets.toml
+=======
